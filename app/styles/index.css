@@ -1,0 +1,29 @@
+body{
+    /* background-color: #081b29; */
+    background-color: #F8F8FF;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*** SWIPE LIST OVERRIDES **/
+.swipe-action__leading {
+    background-color: rgb(0, 132, 149);
+    color: white;
+}
+
+.swipe-action__trailing {
+
+    background-color: #202020;
+    color: white;
+}
+
+.swipeable-list .swipe-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    text-align: right;
+}
+
+
