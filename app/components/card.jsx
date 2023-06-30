@@ -49,7 +49,7 @@ function Card({ proyecto }) {
             className="w-full border-b-2 rounded-3xl"
             src={`${imgUrl}`}
             loading="lazy"
-            decoding="async"
+            // decoding="async"
             alt="imagen"
           />
           <div className="p-10">

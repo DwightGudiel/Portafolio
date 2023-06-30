@@ -18,7 +18,7 @@ function About() {
             className="min-w-full rounded-full border-4 border-blue-300 p-2"
             src={`${nosotros}`}
             loading="lazy"
-            decoding="async"
+            // decoding="async"
             alt="Imagen de Dwight Gudiel"
           />
         </div>

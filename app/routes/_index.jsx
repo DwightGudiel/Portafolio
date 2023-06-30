@@ -46,7 +46,7 @@ function Index() {
             src={`${imagen}`}
             alt="Imagen sobre desarrolo web"
             loading="lazy"
-            decoding="async"
+            // decoding="async"
           />
         </div>
       </div>
@@ -61,7 +61,7 @@ function Index() {
             src={`${linkedin}`}
             alt="icono de linkedin"
             loading="lazy"
-            decoding="async"
+            // decoding="async"
           />
         </Link>
         <Link
@@ -75,7 +75,7 @@ function Index() {
             src={`${github}`}
             alt="icono de github"
             loading="lazy"
-            decoding="async"
+            // decoding="async"
           />
         </Link>
         <Link
@@ -89,7 +89,7 @@ function Index() {
             src={`${whatsapp}`}
             alt="icono de whatsapp"
             loading="lazy"
-            decoding="async"
+            // decoding="async"
           />
         </Link>
       </div>
