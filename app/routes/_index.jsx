@@ -1,5 +1,5 @@
 import { Link } from "@remix-run/react";
-import imagen from "../../public/img/diseñoweb.svg";
+import imagen from "../../public/img/disenoweb.svg";
 import linkedin from "../../public/img/linkedin.svg";
 import github from "../../public/img/githubicon.svg";
 import whatsapp from "../../public/img/whatsapp.svg";
@@ -45,7 +45,7 @@ function Index() {
             className="mt-10 md:mt-0 w-full"
             src={`${imagen}`}
             alt="Imagen sobre desarrolo web"
-            loading="lazy"
+            // loading="lazy"
             // decoding="async"
           />
         </div>
