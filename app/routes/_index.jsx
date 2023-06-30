@@ -1,5 +1,5 @@
 import { Link } from "@remix-run/react";
-import imagen from "../../public/img/Diseño-web.svg";
+import imagen from "../../public/img/diseñoweb.svg";
 import linkedin from "../../public/img/linkedin.svg";
 import github from "../../public/img/githubicon.svg";
 import whatsapp from "../../public/img/whatsapp.svg";
