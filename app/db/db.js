@@ -13,12 +13,12 @@ import iconGit from "../../public/img/git.svg";
 import iconGithub from "../../public/img/github.svg";
 import iconNode from "../../public/img/node.svg";
 import iconExpress from "../../public/img/express.svg";
-import iconSequelize from "../../public/img/sequelize.png";
+import iconSequelize from "../../public/img/sequelize.webp";
 
 // Imagenes para el Portafolio
-import controlCitas from "../../public/img/citasSalonApp.png";
-import controlPresupuesto from "../../public/img/controlPresupuesto.png";
-import appCrypto from "../../public/img/appCripto.png"
+import controlCitas from "../../public/img/citassalonapp.webp";
+import controlPresupuesto from "../../public/img/controlpresupuesto.webp";
+import appCrypto from "../../public/img/appcripto.webp"
 
 // Ruta Skills
 export const skillFronted = [

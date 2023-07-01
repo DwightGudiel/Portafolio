@@ -6,7 +6,7 @@ import { proyectos } from "../db/db";
 export function meta() {
   return [
     { title: "Portafolio - Proyectos" },
-    { viewport: "width=device-width, initial-scale=1" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
     { name: "description", content: "Portafolio Web" },
     { name: "keywords", content: "Portafolio, Dwight, Fronted" },
     { name: "author", content: "Dwight Gudiel" },

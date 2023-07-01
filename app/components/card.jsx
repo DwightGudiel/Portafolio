@@ -49,8 +49,8 @@ function Card({ proyecto }) {
             className="w-full border-b-2 rounded-3xl"
             src={`${imgUrl}`}
             loading="lazy"
-            // decoding="async"
-            alt="imagen"
+            decoding="async"
+            alt={`imagen de ${titulo}`}
           />
           <div className="p-10">
             <h3 className="font-bold capitalize mb-10 text-3xl">{titulo}</h3>
@@ -77,4 +77,5 @@ function Card({ proyecto }) {
     </SwipeableList>
   );
 }
+
 export default Card;

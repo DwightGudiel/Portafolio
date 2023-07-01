@@ -5,9 +5,9 @@ import { skillFronted, skillDB, skillVersiones, skillBackend } from "../db/db";
 export function meta() {
   return [
     { title: "Portafolio - Skills"},
-    { viewport: "width=device-width, initial-scale=1" },
-    { name: "description", content: "Portafolio Web" },
-    { name: "keywords", content: "Portafolio, Dwight, Fronted" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { name: "description", content: "Habilidades" },
+    { name: "keywords", content: "Skills, Dwight, Fronted" },
     { name: "author", content: "Dwight Gudiel" },
   ];
 }
@@ -23,7 +23,7 @@ function Skills() {
         <h2 className="font-bold text-4xl my-10 text-center text-blue-500">
           Fronted
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 place-items-center gap-5">
+        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center gap-5">
           {skillFronted.map((tecnologia) => (
             <Tecnologia key={tecnologia.nombre} tecnologia={tecnologia} />
           ))}

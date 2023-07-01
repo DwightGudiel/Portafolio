@@ -1,12 +1,12 @@
-import nosotros from "../../public/img/nosotros.jpg";
+import nosotros from "../../public/img/nosotros.webp";
 
 
 export function meta() {
   return [
     { title: "Portafolio - Acerca de Mi"},
-    { viewport: "width=device-width, initial-scale=1" },
-    { name: "description", content: "Portafolio Web" },
-    { name: "keywords", content: "Portafolio, Dwight, Fronted" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { name: "description", content: "Acerca de Mi" },
+    { name: "keywords", content: "acerca de mi, Dwight," },
     { name: "author", content: "Dwight Gudiel" },
   ];
 }
@@ -14,10 +14,10 @@ export function meta() {
 function About() {
   return (
     <div className="container mx-auto mt-10 p-5">
-      <h1 className="text-center text-5xl mb-5 md:my-16 font-bold text-blue-800">Acerca de Mí</h1>
+      <h1 className="text-center text-5xl mb-5 lg:my-16 font-bold text-blue-800">Acerca de Mí</h1>
 
-      <div className="md:grid md:grid-cols-10 md:place-items-center md:gap-10">
-        <div className="md:col-span-4">
+      <div className="lg:grid lg:grid-cols-10 lg:place-items-center lg:gap-10">
+        <div className="lg:col-span-4">
           <img
             className="min-w-full rounded-full border-4 border-blue-300 p-2"
             src={`${nosotros}`}
@@ -26,8 +26,8 @@ function About() {
             alt="Imagen de Dwight Gudiel"
           />
         </div>
-        <div className="text-2xl md:col-span-6 text-gray-800">
-          <p className=" leading-10 mt-10 md:mt-0">
+        <div className="text-2xl lg:col-span-6 text-gray-800">
+          <p className=" leading-10 mt-10 lg:mt-0">
             ¡Hola! Permíteme contarte un poco sobre mí. Tengo 23 años y soy
             originario de Petén, Guatemala. Me apasiona el desarrollo web y,
             actualmente, mi enfoque principal es convertirme en un desarrollador
@@ -44,7 +44,7 @@ function About() {
         </div>
       </div>
 
-      <div className="md:grid md:grid-cols-2 text-2xl md:gap-10 mt-20 text-gray-800">
+      <div className="lg:grid lg:grid-cols-2 text-2xl lg:gap-10 mt-20 text-gray-800">
         <div>
           <h3 className="font-bold text-3xl text-center  text-blue-500">Educación</h3>
           <ul className="ml-6 list-none">
@@ -63,7 +63,7 @@ function About() {
           </ul>
         </div>
         <div>
-          <h3 className="font-bold text-3xl text-center mt-20 md:mt-0 text-blue-500">Idiomas</h3>
+          <h3 className="font-bold text-3xl text-center mt-20 lg:mt-0 text-blue-500">Idiomas</h3>
             <p className="my-10 text-center">Español Nativo</p>
             <p className="text-center">Inglés A2</p>
         </div>
