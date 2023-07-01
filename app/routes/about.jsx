@@ -4,6 +4,10 @@ import nosotros from "../../public/img/nosotros.jpg";
 export function meta() {
   return [
     { title: "Portafolio - Acerca de Mi"},
+    { viewport: "width=device-width, initial-scale=1" },
+    { name: "description", content: "Portafolio Web" },
+    { name: "keywords", content: "Portafolio, Dwight, Fronted" },
+    { name: "author", content: "Dwight Gudiel" },
   ];
 }
 

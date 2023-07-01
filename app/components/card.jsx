@@ -37,7 +37,7 @@ function Card({ proyecto }) {
   );
 
   return (
-    <SwipeableList className="shadow rounded-3xl shadow-gray-300 mb-20 md:mb-0">
+    <SwipeableList className="shadow rounded-3xl shadow-gray-300 mb-20 lg:mb-0">
       <SwipeableListItem
         // Editar
         leadingActions={leadingActions()}

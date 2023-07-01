@@ -17,13 +17,15 @@ import styles from "./styles/index.css";
 export function meta() {
   return [
     { charset: "utf-8" },
-    { title: "Portafolio" },
+    { title: "Portafolio - Inicio" },
     { viewport: "width=device-width, initial-scale=1" },
     { name: "description", content: "Portafolio Web" },
     { name: "keywords", content: "Portafolio, Dwight, Fronted" },
     { name: "author", content: "Dwight Gudiel" },
   ];
 }
+
+
 
 export function links() {
   return [

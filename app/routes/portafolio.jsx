@@ -1,11 +1,15 @@
 import Card from "../components/card";
-import style from "react-swipeable-list/dist/styles.css";
-import { proyectos } from "../db/db";
+import style from "../styles/swipeableList.css";
 
+import { proyectos } from "../db/db";
 
 export function meta() {
   return [
-    { title: "Portafolio - Proyectos"},
+    { title: "Portafolio - Proyectos" },
+    { viewport: "width=device-width, initial-scale=1" },
+    { name: "description", content: "Portafolio Web" },
+    { name: "keywords", content: "Portafolio, Dwight, Fronted" },
+    { name: "author", content: "Dwight Gudiel" },
   ];
 }
 

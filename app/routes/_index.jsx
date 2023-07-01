@@ -4,13 +4,6 @@ import linkedin from "../../public/img/linkedin.svg";
 import github from "../../public/img/githubicon.svg";
 import whatsapp from "../../public/img/whatsapp.svg";
 
-export function meta() {
-  return [
-    { title: "Portafolio - Inicio"},
-  ];
-}
-
-
 function Index() {
   return (
     <div className="container mx-auto p-3">
