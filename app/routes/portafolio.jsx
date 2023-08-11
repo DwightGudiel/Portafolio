@@ -1,5 +1,7 @@
+import { Link } from "@remix-run/react";
 import Card from "../components/card";
 import style from "../styles/swipeableList.css";
+import iconGithub from "../../public/img/github.svg";
 
 import { proyectos } from "../db/db";
 
@@ -32,6 +34,17 @@ function Portafolio() {
         {proyectos.map((proyecto) => (
           <Card key={proyecto.id} proyecto={proyecto} />
         ))}
+      </div>
+      <div className="flex justify-center mt-10">
+        <Link
+          to={"https://github.com/DwightGudiel"}
+          className="bg-black p-2 text-white flex gap-2 items-center rounded-xl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver Repositorios de Github
+          <img className="h-10 w-10" src={iconGithub} alt="" />
+        </Link>
       </div>
     </div>
   );

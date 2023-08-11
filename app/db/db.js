@@ -2,6 +2,7 @@
 import iconHtml from "../../public/img/html.svg";
 import iconCss from "../../public/img/css.svg";
 import iconJS from "../../public/img/javascript.svg";
+import iconNextJS from "../../public/img/nextjs.svg";
 import iconReact from "../../public/img/reactLarge.svg";
 import iconTailwind from "../../public/img/tailwindLarge.svg";
 import iconBootstrap from "../../public/img/boostrap.svg";
@@ -18,14 +19,16 @@ import iconSequelize from "../../public/img/sequelize.webp";
 // Imagenes para el Portafolio
 import controlCitas from "../../public/img/citassalonapp.webp";
 import controlPresupuesto from "../../public/img/controlpresupuesto.webp";
-import appCrypto from "../../public/img/appcripto.webp"
+import appCrypto from "../../public/img/appcripto.webp";
+import appCafe from "../../public/img/blogCafe.webp";
 
 // Ruta Skills
 export const skillFronted = [
   { nombre: "HTML5", path: `${iconHtml}` },
   { nombre: "CSS3", path: `${iconCss}` },
   { nombre: "JavaScript", path: `${iconJS}` },
-  { nombre: "React JS", path: `${iconReact}` },
+  { nombre: "React", path: `${iconReact}` },
+  { nombre: "Next JS", path: `${iconNextJS}` },
   { nombre: "Angular JS", path: `${iconAngular}` },
   { nombre: "Tailwind", path: `${iconTailwind}` },
   { nombre: "Bootstrap 5", path: `${iconBootstrap}` },
@@ -52,6 +55,20 @@ export const skillBackend = [
 export const proyectos = [
   {
     id: 1,
+    titulo: "Blog Café",
+    imgUrl: `${appCafe}`,
+    descripcion:  
+      "Blog de café con consejos y cursos Aprende de los mejores expertos con las mejores recetas y consejos",
+    projectUrl: "https://github.com/DwightGudiel/BlogCaf-con-HTML5-y-CSS3",
+    demoUrl: "https://blogcafeduay.netlify.app/",
+    tecnologiasUsadas: [
+      { id: 1, nombre: "HTML5" },
+      { id: 2, nombre: "CSS3" },
+      { id: 4, nombre: "JavaScript" },
+    ],
+  },
+  {
+    id: 2,
     titulo: "App web para el control de citas en un salón de belleza",
     imgUrl: `${controlCitas}`,
     descripcion:
@@ -65,7 +82,7 @@ export const proyectos = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     titulo: "Aplicación web de gestión de presupuesto",
     imgUrl: `${controlPresupuesto}`,
     descripcion:
@@ -79,7 +96,7 @@ export const proyectos = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     titulo: "Aplicación web para consultar los precios de las criptomonedas",
     imgUrl: `${appCrypto}`,
     descripcion:

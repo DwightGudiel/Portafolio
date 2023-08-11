@@ -37,13 +37,11 @@ function Index() {
           <img
             className="mt-10 md:mt-0 w-full"
             src={`${imagen}`}
-            alt="Imagen sobre desarrolo web"
-            // loading="lazy"
-            // decoding="async"
+            alt="Imagen sobre desarrollo web"
           />
         </div>
       </div>
- 
+
       <div className="flex justify-center lg:justify-start mt-12 gap-10">
         <Link
           className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
